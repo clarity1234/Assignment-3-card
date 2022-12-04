@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.body{
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+.main{
+    position: relative;
+    top: 10px ;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 0px 0px 10px 10px;
+}
+.img{
+    background-image: url("./images/illustration-hero.svg");
+    background-size: cover;
+    flex: 0.4;
+    border-radius: 10px 10px 0px 0px;
+    color: hsl(224, 23%, 55%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    
+}
+.details{
+    flex: 0.65;
+    background-color: whitesmoke;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+.card-info{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    right: 60px;
+    top: 20px;
+}
+h3{
+    font-size: 12px;
+    position: relative;
+    right: 155px;
+    top: 7px;
+    color: black;
+}
+h4{
+    font-size: 12px;
+    font-weight: 100;
+    color: gray;
+    position: relative;
+    top: 13px;
+    right: 158px;
+}
+figure{
+    position: relative;
+    right: 173px;   
+}
+p{
+    flex: 0.4;
+    font-size: 13px;
+    position: relative;
+    top: 30px;
+    letter-spacing: 1px;
+    color: gray;
+    justify-content: center;
+   
+}
+.but{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    box-shadow: 10px 13px 15px 0 hsl(244, 73%, 85%);
+}
+h1{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.p-1{
+    position: relative;
+    top: 70px;
+
+}
+h5{
+    font-size: 11px;
+    color: hsl(245, 75%, 52%);
+    font-weight: bolder;
+    position: relative;
+    right: 15px;
+    bottom: 10px;
+    text-decoration: underline;
+}
+.button1{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 10px;
+    left: 60px;
+    padding: 1px;
+    padding-inline-start: 185px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+@media screen and (max-width:375px) {
+    .body{
+        background-color: hsl(225, 100%, 94%);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main{
+        position: relative;
+        top: 3px ;
+        height: 500px;
+        width: 310px;
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .img{
+        background-image: url(/images/illustration-hero.svg);
+        background-size: cover;
+        flex: 0.4;
+        border-radius: 10px 10px 0px 0px;
+        
+    }
+    .details{
+        flex: 0.65;
+        background-color: whitesmoke;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        padding: 20px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .card-info{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: center;
+        position: relative;
+        right: 60px;
+        top: 20px;
+    }
+    h3{
+        font-size: 11px;
+        position: relative;
+        right: 125px;
+        top: 7px;
+        color: black;
+    }
+    h4{
+        font-size: 11px;
+        font-weight: 100;
+        color: gray;
+        position: relative;
+        top: 19px;
+        right: 128px;
+    }
+    figure{
+        position: relative;
+        right: 133px;   
+    }
+    p{
+        flex: 0.4;
+        font-size: 13px;
+        position: relative;
+        top: 30px;
+        letter-spacing: 1px;
+        color: gray;
+        justify-content: center;
+       
+    }
+    button{
+        background-color: hsl(245, 75%, 52%);
+        color: white;
+        font-weight: 700;
+        font-size: 13px;
+        padding: 12px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        position: relative;
+        top: 50px;
+    }
+    h1{
+        font-size: 20px;
+        position: relative;
+        top: 20px;
+    }
+    .p-1{
+        position: relative;
+        top: 70px;
+    
+    }
+    h5{
+        font-size: 11px;
+        color: hsl(245, 75%, 52%);
+        font-weight: bolder;
+        position: relative;
+        right: 15px;
+        bottom: 10px;
+        text-decoration: underline;
+    }
+    .button1{
+        background-color: hsl(225, 100%, 98%);
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 10px;
+        left: 60px;
+        padding: 1px;
+        padding-inline-start: 150px;
+        
+    }
+}
+
+    
+    
